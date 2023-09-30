@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.home-container{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.home-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-grow: 1;
+}
+.home-sm-img{
+    width: 80%;
+    max-width:470px;
+}
+.home-lg-img{
+    display: none;
+}
+@media screen and (min-width:768px){
+    .home-sm-img{
+        display: none;
+    }
+    .home-lg-img{
+        width: 100%;
+        max-width: 1110px;
+    }
+}

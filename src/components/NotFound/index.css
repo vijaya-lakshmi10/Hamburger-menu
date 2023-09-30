@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.not-found-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.not-found-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 90%;
+    max-width: 1110px;
+}
+.not-found-img{
+    width:330px;
+}
+.not-found-heading{
+    color: #616e7c;
+    font-family: 'Roboto';
+    font-size:20px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+.not-found-desc{
+    color:  #dcdcdc;
+    font-family: 'Roboto';
+    font-size:16px;
+    line-height: 1.75;
+    margin-top: 15px;
+}
+@media screen and (min-width:768px){
+    .not-found-content-container{
+        align-items: flex-start;
+        margin-top:60px;
+    }
+    .sub-container{
+        margin-top: 60px;
+        max-width: 460px;
+    }
+    .not-found-img{
+        width: 475px;
+    }
+    .not-found-heading{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .not-found-desc{
+        font-size: 24px;
+        text-align: center;
+    }
+}
